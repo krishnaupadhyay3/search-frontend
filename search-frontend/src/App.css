@@ -1,0 +1,197 @@
+html, body {
+    height: 100%;
+    width: 100%;
+ font-family: arial, sans-serif;
+ margin: 0;
+ }
+ 
+ .logo img{
+   height: 6%;
+ width: 9%;
+ }
+
+ 
+ #searchInfo span{
+ font-size: small;
+ color: #7a7a7a;
+ margin-left: 135px;
+ line-height: 40px;
+ }
+ 
+ #searchInfo{
+ height: 40px;
+ margin-bottom: 7px;
+ margin-top: 2px;
+   margin-left: 4.5%;
+ }
+ 
+ .search-box{
+   margin-top: -6.5%;
+ }
+ .resultWrapper{
+   margin-left: 10%;
+   margin-right: 30%;
+ }
+ 
+ .resultWrapper {
+   margin-bottom: 22px;
+ }
+ .heading{
+ font-size: 22px;
+ margin-bottom: 4px;
+ }
+ 
+ .url{
+ color: green;
+ font-size: 16px;
+ margin-bottom: 3px;
+ margin-left: 2px;
+ 
+ }
+ .input-val{
+   padding-left: 3%;
+   margin-left: 13%;
+   margin-bottom: 17px;
+   margin-top: 4px;
+ background: #fff;
+ border: 1px solid #dfe1e5;
+ box-shadow: none;
+ height: 39px;
+ width: 46%;
+ border-radius: 24px;
+ 
+ word-wrap: break-word;
+ outline: none;
+   font-size: 22px;
+   color:#3ac9c2;
+ }
+ 
+ .content{
+   margin-right: 22%;
+   font-size: 16px;
+   margin-left: 3px;
+ }
+ 
+ #searchResults {
+   margin-left: 5%;
+ }
+ #searchResults a{
+ text-decoration: none;
+ 
+ }
+ 
+ #searchResults a:hover{
+ text-decoration: underline;
+ }
+ 
+ #searchResults .url:hover {
+   text-decoration: underline;
+ }
+ .svg-icon{
+   margin-top: -4%;
+   margin-left: 55.5%;
+ fill: currentColor;
+ height: 32px;
+ line-height: 24px;
+ width: 32px;
+ color: orange;
+ visibility: hidden;
+ cursor: pointer;
+ }
+ .svg-search{
+   display: inline-block;
+ fill: currentColor;
+ height: 32px;
+ width: 32px;
+ line-height: 24px;
+ position: relative;
+ 
+ color: #4285f4;
+ top: 5%;
+ }
+ .btn-submit{
+   margin-top: -2.6%;
+ }
+ .search-submit{
+   height: 44px;
+ width: 44px;
+ background: transparent;
+ border: none;
+ cursor: pointer;
+ margin-left: 58%;
+ }
+ 
+ body {
+    font-size: 13px;
+  }
+  
+  .page {
+    padding-top: 20vh;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 25vh;
+  }
+  .logo {
+    padding-bottom: 15px;
+  }
+  
+  .search {
+    width: 45vw;
+    border-radius: 50px 50px 50px 50px;
+    padding: 8px;
+    border: 1px solid #d9d9d9;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2Xz2sTQRSAX8VSb1K8iNqKooJH2Ux6Ksn+iPQqxZMIehJB0do/IMhmQWsvHr2KSEGk0tSLIoWIYNUKij20F2/N7iaUZnYT0kYzzhMKs0HDJiTdLcwHDwKZSd63781LBiQSSW9JZdkhzfKm1Rz9mjZp/W9YdEU3vXv4HsQZ40FtNG36q5rls//Ej4tmbSS2T15Mvp3ExOPmEMQNbBtMMEyoljcFcQN7PqyAlqNfIG7gYQ0tYNIaxA1MrJPY3wImbUqBKAXSFv0tBSIVMOkvKRDtGKWN/T6FdqRAxFNoWwpEPIXqUqBT6ALU/UVgu8GW4GD3f6f9TRDYNJTDrk7YbtiqUumHwIYoUJuHERDAS0r4CvgFECgbY+cFAR7KT+g1POmCKFDNw6WggHc3fBtVb4CAoyauBgXIG+g1Xh5mRAGah6cggBd11fK/h7lOprIs0H6uRl6KAo5O7kOv4QmPiwJ4Jqqv4FiwCtXjvD2+tRmfK6kZ/ygI2HritK0rDVGgrClJ6DWMwYC/AGuCBMYcIC2V0CzvjmbRz3j3xUjn6CfeYreUJ2wQkGD75INPX1mFfsEFrrcIYCvdhC4paWQakxajpJMr0C9YFg54i7AsClRmh9/xnr0NHcInzZStk2aLwAcGMAD9pPIazvFKVDD5rdnhJeHLX5RTyRPQHpz5o66emMc9wdlPtvA8wF7Aq2BUHh1525qEo5JtR1WeOXpickO9cJIpyuD6xJmhYiZ5ytWSl3mlnuOaf+2zDaLDXmJrSgZ/MYVEugo+gSh+FkSBa4yd5Ul87DZ5XpFl/AyIEjzYjkau8WqshU2cr13HPbgX4gJOD97n465GZlyVvC9mSKloKI2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmCC) no-repeat;
+    background-position: 98.5%;
+    background-size: 1.5em;
+    font-size: large;
+  }
+  .search:hover {
+    border: 1px solid #b9b9b9;
+    border-top-color: #a0a0a0;
+  }
+  
+  .search:focus {
+    outline: none;
+    border: 1px solid #4d90fe;
+  }
+  
+  .Bcontainer {
+    text-align: center;
+    margin: 0 auto;
+    width: 270px;
+    padding-top: 20px;
+  }
+  .button {
+      
+    display: inline-block;
+    background: #fdb7ee;
+    padding: 8px 12px;
+    font-weight: 700;
+    font-size: 13px;
+    border: 1px transparent #f2f2f2;
+    border-radius: 5px 5px 5px 5px;
+    color: #757575;
+    font-family: arial, sans-serif;
+  }
+  
+  .button:hover {
+    border: 1px solid #c6c6c6;
+    color: #222;
+    cursor: default;
+  }
+  .button:hover {
+      color: blue;
+  }
+  .left {
+    float: left;
+  }
+  
+  .error-msg{
+    display: none;
+    margin-top: 20px;
+    margin-left: 27%;
+  margin-right: 26%;
+  }
+  .error {
+    font-size: medium;
+  }
